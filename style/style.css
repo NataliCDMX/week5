@@ -1,0 +1,57 @@
+h2 {
+    color: blueviolet;
+    font-family: 'Comforter', cursive;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h4 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: inherit;
+}
+
+.menu {
+    font-family: 'Comforter', cursive;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B08EAD;
+    padding: 10px;
+    
+}
+
+.menu:hover {
+    text-decoration: underline;
+    color: rgb(247, 119, 208);
+}
+
+.menu:focus {
+    color: blue;
+}
+
+.menu a:visited {
+    color: red;
+}
+
+#mainimg {
+    width: 50vw;
+}
+
+#submenu .menu {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+
+    }
+    
+

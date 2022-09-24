@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 80%;
+
+        }
+
+        .Header {
+            display: flex;
+            /*border: 1px solid red;*/
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: hsl(0, 0%, 90%)
+        }
+
+        .Footer {
+            display: flex;
+            /*border: 1px solid red;*/
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: hsl(0, 0%, 90%)
+        }
+
+        main {
+            display: flex;
+            /*border: 1px solid red;*/
+            justify-content: space-between;
+
+        }
+
+        .main_ {
+            /*border: 1px solid red;*/
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: hsl(39, 70%, 94%);
+            padding: 5%;
+        }
+
+        .nearmain {
+            /*border: 1px solid red;*/
+            display: flex;
+            justify-content: center;
+            width: 30%;
+            background-color: hsl(120, 35%, 91%)
+        }
+
+        .pmain {
+            /*border: 1px solid red;*/
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: hsl(39, 70%, 94%)
+        }
+
+        .p {
+            /*border: 1px solid red;*/
+            display: flex;
+            justify-content: center;
+            height: 20%;
+            width: 45%;
+            background-color: hsl(40, 92%, 90%);
+            padding: 1.5%;
+
+
+        }
+
+        .p3 {
+            /*border: 1px solid red;*/
+            display: flex;
+            width: 95%;
+            justify-content: center;
+            height: 20%;
+            background-color: hsl(40, 92%, 90%);
+            padding: 1.5%;
+
+
+        }
+
+        .footer1 {
+            background-color: white;
+            padding: 2%;
+        }
+
+        b {
+            font-size: x-large;
+
+        }
+
+        h2 {
+            font-size: x-large;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="Header">
+        <h2>[Шапка страницы]</h2>
+    </header>
+    <main>
+        <div class="main_">
+            <h2>[Основная часть]</h2>
+            <div class="pmain">
+                <p class="p"><b> [Еще 1] </b></p>
+                <p class="p"><b> [Еще 2]</b></p>
+                <p class="p3"> <b>[Еще 3]</b> </p>
+            </div>
+        </div>
+        <div class="nearmain">
+            <h2>[Боковая область]</h2>
+        </div>
+    </main>
+    <footer class="Footer">
+        <p class="footer1"><b>[Секция футера 1]</b></p>
+        <p class="footer1"><b>[Секция футера 2]</b></p>
+        <p class="footer1"><b>[Секция футера 3]</b></p>
+        <p class="footer1"><b>[Секция футера 4]</b></p>
+    </footer>
+</body>
+
+</html>
